@@ -6,4 +6,8 @@ public class HangManTest {
          HangMan scorer= new HangMan("moringa");
         assertNotNull(scorer);
     }
+    @Test(expected = IllegalArgumentException.class)
+    public void testDoesnotInstatiateWithEmptyString() {
+        HangMan scorer = new HangMan ("uuu");
+    }
 }
