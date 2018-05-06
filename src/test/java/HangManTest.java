@@ -19,7 +19,14 @@ public class HangManTest {
   @Test
     public void checkSplitting(){
       HangMan words = new HangMan();
-      String[] myVar = {"T","i","g","e","r"};
-      assertEquals (myVar, words.splitWords("Tiger"));
+      String[] myVar = {"p","e","a","c","e"};
+      assertEquals (myVar, words.splitWords("peace"));
     }
-}
+    // /This test will breakup the user Input to portions of latters
+    @Test
+    public void breakupUserInput(){
+      HangMan words = new HangMan();
+      String[] myVar1 ={"p","e","a","c","e"};
+      assertEquals(myVar1,words.breakupUserInput("peace"));
+    }
+  }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HangManTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-06T12:12:33" hostname="agnes-Latitude-E6430" time="0.003">
+<testsuite name="HangManTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-06T12:21:32" hostname="agnes-Latitude-E6430" time="0.005">
   <properties/>
   <testcase name="checkSplitting" classname="HangManTest" time="0.002"/>
+  <testcase name="breakupUserInput" classname="HangManTest" time="0.0"/>
   <testcase name="getStringWord" classname="HangManTest" time="0.0"/>
-  <testcase name="getRandomword" classname="HangManTest" time="0.0"/>
+  <testcase name="getRandomword" classname="HangManTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

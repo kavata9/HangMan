@@ -25,4 +25,9 @@ public class HangMan {
     String[] splitWords = guessedWord.split("");
     return splitWords;
   }
+  // /This Test will now Compare the user Input and the split result
+    public String[] breakupUserInput(String myInput){
+      String[] splitUserInputs = myInput.split("");
+      return splitUserInputs;
+    }
 }
